@@ -11,7 +11,7 @@ The governance model is based on (but adapted for this purpose) the
 
 - **`Users`**: Any user or general consumer of the infrastructure, API or code.
 - **`Contributor`**: Any developer or designer contributing to the AtB projects.
-  Either by supporting new users, improving documentations, patching code,
+  Either by supporting new users, improving documentation, patching code,
   identifying requirements, or more. There are many ways to contribute that add
   high value.
 - **`Committers`**: Any developer or designer with write access to any
@@ -26,12 +26,12 @@ The governance model is based on (but adapted for this purpose) the
 
 All contributors with a _significant_[1] amount of work can be elected as a
 `committer` by the `member` committee. Committers are elected through a voting
-process and any committer or member can nominate contributor as a potential
+process and any committer or member can nominate a contributor as a potential
 committer.
 
 Committers will have write access to the project they are committers of, but
 will still have to follow normal procedures with Pull Requests and reviews as
-rest of contributors, committers and members. See
+the rest of contributors, committers and members. See
 [general contribution guide](./CONTRIBUTING.md).
 
 ## Voting, consensus, and decisions

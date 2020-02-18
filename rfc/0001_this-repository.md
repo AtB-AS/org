@@ -22,7 +22,7 @@ author: Mikael Brevik <@mikaelbr>
 
 This proposes an implementation of the proposed Governance model (meritocratic
 light™) and a way to move RFC/DesignDocs over to open platform. With this
-implementation on Github, we also get a way of doing formal decisions and
+implementation on GitHub, we also get a way of doing formal decisions and
 trackable discussions over time for historic contexts.
 
 This solution is just the initial foundation and we should build on top of this

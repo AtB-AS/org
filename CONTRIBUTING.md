@@ -1,6 +1,6 @@
 # Contributing to AtB Community
 
-There are many ways to contribute to AtB and AtBs projects. All projects that
+There are many ways to contribute to AtB and AtB's projects. All projects that
 can be open are by default open, but there are other ways of contributing than
 just code. See [document on how Open Source is organized](./GOVERNANCE.md) to
 get more details.
@@ -29,4 +29,4 @@ everyone and follows the structure as specified in the
 We follow Pull Requests and review process. Changes should not be committed
 directly to master, but in a separate branch (or fork) and proposed as a change
 through Github Pull Requests. When adding PRs we require at least one
-`committer` (see governance), to approve it.
+`committer` (see governance) to approve it.

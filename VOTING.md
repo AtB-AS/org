@@ -10,7 +10,7 @@ to object. Appropriate time depends on different factors such as season. In the
 summertime when people are generally on vacation, you cannot propose a rewrite
 of the entire infrastructure and hope no-one notices. Similarly, we should
 ensure all committers with a stake in the decision (e.g. app developers,
-infrastructure maintainers, etc) is aware of proposals by adding them as
+infrastructure maintainers, etc) are aware of proposals by adding them as
 reviewers of said proposal.
 
 Big picture decisions and strategic decisions will not use lazy consensus but go
@@ -58,6 +58,6 @@ There are different types of required voting, as explained in this table
 | Action              | Description                                                                                                                             | Approval type                  |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | Technical decisions | Most technical discussions and everyday decisions.                                                                                      | Lazy consensus, General voting |
-| Strategic decisions | Big picture, or strategic decisions. Important for AtB as an organization and impact outside just these projects (e.g. political, etc). | Elevetad voting                |
+| Strategic decisions | Big picture, or strategic decisions. Important for AtB as an organization and impact outside just these projects (e.g. political, etc). | Elevated voting                |
 | New committers      | New committer has been nominated. (Not RFC, but Github Issue)                                                                           | Elevated vote                  |
 | Committer removal   | Proposed removal of committer (due to inactivity or other reasons. Not RFC, but Github Issue)                                           | Elevated vote                  |
