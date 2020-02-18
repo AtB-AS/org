@@ -14,7 +14,7 @@ possible with development.
 ## Open Development
 
 All work that can be open is open on the
-[AtB Github Organization](https://github.com/AtB-AS). Everyone can contribute in
+[AtB GitHub Organization](https://github.com/AtB-AS). Everyone can contribute in
 different ways (see [vocabulary](./GOVERNANCE.md#vocabulary)) and all follow the
 same [review process](#review-process-and-pull-requests).
 

@@ -1,10 +1,9 @@
-# RFC/DesignDocs
+# Request for Comment (RFC)
 
 For any strategic, long term or non-trivial changes (such as but not limited to,
 technology decisions, architectural decision, design pattern decisions) must be
-done through RFC (Request for Comments) documents (or design document) proposing
-a solution. This way we document decisions and give shared ownership on
-important discussions.
+done through RFC documents proposing a solution. This way we document decisions
+and give shared ownership on important discussions.
 
 Any community member can add a proposal for consideration by the community at
 any time. RFC proposals are intended as bigger decisions and not issues. Many

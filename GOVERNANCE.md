@@ -9,22 +9,22 @@ The governance model is based on (but adapted for this purpose) the
 
 ## Vocabulary
 
-- **`Users`**: Any user or general consumer of the infrastructure, API or code.
+- **`User`**: Any user or general consumer of the infrastructure, API or code.
 - **`Contributor`**: Any developer or designer contributing to the AtB projects.
   Either by supporting new users, improving documentation, patching code,
   identifying requirements, or more. There are many ways to contribute that add
   high value.
-- **`Committers`**: Any developer or designer with write access to any
+- **`Committer`**: Any developer or designer with write access to any
   repositories. You can be a committer of one project or more. `Committers` are
   chosen by contributing a fair amount to the project and voted in by `members`.
   Any committer or `member` can nominate `committers`. `Committers` have voting
   right for [RFCs](./rfc).
-- **`Members`**: Members of the AtB team, with `@mittatb.no` emails. Same as
-  committers, but can also vote on strategic long term decisions.
+- **`Member`**: Any member of the AtB team. A `member` has `@mittatb.no` emails.
+  Same as committers, but can also vote on strategic long term decisions.
 
 ## Committer onboarding
 
-All contributors with a _significant_[1] amount of work can be elected as a
+All contributors with a significant amount of work can be elected as a
 `committer` by the `member` committee. Committers are elected through a voting
 process and any committer or member can nominate a contributor as a potential
 committer.
@@ -38,10 +38,10 @@ the rest of contributors, committers and members. See
 
 For any strategic, long term or non-trivial changes (such as but not limited to,
 technology decisions, architectural decision, design pattern decisions) must be
-done through RFC (Request for Comments) documents (or design document) proposing
-a solution. This way we document decisions and give shared ownership on
-important discussions. But any community member can add a proposal for
-consideration by the community at any time.
+done through RFC (Request for Comments) documents proposing a solution. This way
+we document decisions and give shared ownership on important discussions. But
+any community member can add a proposal for consideration by the community at
+any time.
 
 General flow is
 
