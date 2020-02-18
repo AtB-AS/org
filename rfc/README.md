@@ -38,3 +38,15 @@ When creating Pull Requests, use the Pull Request template on Github.
 ## Voting
 
 [See document on voting](../VOTING.md)
+
+## Obsolete RFCs
+
+When an RFC is no longer relevant or has been obsoleted by another document we
+explicitly mark the title with `Obsolete`, prefix filename with `obsolete_` and
+add a section to the top of the document with the reason for obsoletion.
+Example:
+
+```
+> ## Obsoleted by 0004_New-governance-model
+> **This RFC is obsolete. See updated RFC: [0004_New-governance-model](./0004_New-governance-model.md)**
+```

@@ -1,6 +1,5 @@
 ---
 date: "2020-02-10"
-status: In progress | Accepted
 author: Name <@username>
 ---
 
