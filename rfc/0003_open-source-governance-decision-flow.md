@@ -8,15 +8,15 @@ relevant: RFC0001
 
 ### Goals
 
-- Allow for maximum external contributions.
-- Be as open and transparent as possible.
+- Allow for maximum external contributions
+- Be as open and transparent as possible
 - Have established decision flow methods
-- Communicate AtB as an interesting place to work.
+- Communicate AtB as an interesting place to work
 - Align all decisions across disciplines (design, development, business)
 - Ensure the quality of produced outputs (apps, infrastructure)
 - Ensure AtBs overall strategic goals
 - Avoid “highjacking” of projects
-- Ensure safety and security are maintained in projects.
+- Ensure safety and security are maintained in projects
 
 ### Non-goals
 
@@ -30,7 +30,8 @@ model).
 
 ### Roles of management:
 
-- Users: Consumers of products (SDK, APIs, Components, etc) (anyone can do this)
+- Users: Consumers of products, SDKs, APIs, components, etc. (anyone can do
+  this)
 - Contributors: Answering issues, providing feedback, etc. They can also submit
   patches through PRs. (anyone can do this)
 - Committers: “Elected contributors” with write access to given repositories.
@@ -60,7 +61,7 @@ Open Source is more than just disclosing the source code. It is about
 communication, willingness to change and inclusiveness. To be a successful Open
 Source project, we must work within the practices of Open Source. This includes
 platforms, but also methodology. Having all communication and decision flow
-internal, will not allow the project to grow as an Open Source project and will
+internal will not allow the project to grow as an Open Source project and will
 not have the intended effect or gains.
 
 There are established ways of handling Open Source projects. The most prominent
@@ -68,9 +69,9 @@ models are BDFL (Benevolent Dictator for Life), meritocracies or liberal
 contribution models. BDFL isn’t directly applicable in this sense as we are an
 organization striving for autonomy, even though we have a product owner.
 
-Meritocratic and liberal governance is similar. With liberal governance, you can
-be accepted as an official contributor by contributing a non-trivial patch, but
-in a “meritocracy” the threshold is somewhat higher.
+Meritocratic and liberal governance are similar. With liberal governance, you
+can be accepted as an official contributor by contributing a non-trivial patch,
+but in a “meritocracy” the threshold is somewhat higher.
 
 As I see it, meritocracy is a mix of liberal and BDFL. It allows for external
 contributors in the same way as internal contributors, but it is not as
@@ -94,11 +95,11 @@ committers can have write access to repositories but can be overruled and
 removed as committers by PMCs.
 
 We could also do some form of BDFL, where the “internal team” takes all
-decisions but documents decisions and implements without any open communication.
-This would be easier to do, but I also think it will have less impact. I think a
-proper Open Source Governance such as meritocratic can force us to follow good
-principals such as design docs/RFCs, documentation and reduce onboarding
-complexity.
+decisions but documents decisions and implements solutions without any open
+communication. This would be easier to do, but I also think it will have less
+impact. I think a proper Open Source Governance such as meritocratic can force
+us to follow good principals such as design docs/RFCs, documentation and reduce
+onboarding complexity.
 
 I propose using meritocratic governance with voting based decision flow
 according to the template based on Apache’s model:
