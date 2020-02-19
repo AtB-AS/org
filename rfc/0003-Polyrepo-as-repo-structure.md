@@ -1,6 +1,6 @@
 ---
 date: "2020-01-16"
-author: Martin Jenssen <@username>
+author: Martin Jenssen <@mjenssen>
 ---
 
 # Polyrepo as repository structure
