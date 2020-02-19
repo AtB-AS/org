@@ -7,11 +7,11 @@ author: Rino Andre Johnsen <@rinoandrejohnsen-atb>, Mikael Brevik <@mikaelbr>
 
 ### Goals
 
-- Share as much of our work and knowledge as Open Source.
+- Share as much of our work and knowledge as Open Source
 - Involve community and Trøndelag in the development and design of a new
   solution
 - Be visible as a development organization to show AtB as an attractive
-  workplace.
+  workplace
 - Get valuable external input from others outside AtB
 
 ### Non-goals
