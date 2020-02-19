@@ -17,10 +17,6 @@ author: Name <@username>
 
 [Body]
 
-## Motivation
-
-[Body]
-
 ## Discussion
 
 [Body]
