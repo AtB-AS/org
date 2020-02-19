@@ -49,7 +49,7 @@ measurement remains consistent no matter which platform our users are utilizing.
 Most of the analytics providers offer a similar range of services, where such
 features as monitoring traffic, behaviour flows, crash reporting and A/B testing
 are universally provided. Some differ in the platforms they focus on, such as
-Firebase, Crashlytics and Flurry has historically focused on mobile apps, while
+Firebase, Crashlytics and Flurry have historically focused on mobile apps, while
 such services as Google Analytics and Mixpanel have been focused on websites.
 
 The general trend today is moving towards offering a solution which allows you
