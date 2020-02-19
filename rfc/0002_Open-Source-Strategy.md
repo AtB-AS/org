@@ -44,7 +44,7 @@ considered public domain in a sense. More than that, Trondheim has a long
 tradition of doing derived work with AtB data and solutions both through Open
 Source and reverse engineering work. This is something we should embrace instead
 of counteracting. We should use the enthusiasm of the community to make better
-products and better services to the people of Trondheim. This is why we should
+products and better services for the people of Trondheim. This is why we should
 strive to be as open as possible. This can also give the added effect of making
 AtB a more attractive workplace for many, which is important should it (want to)
 build an internal culture of software development.
