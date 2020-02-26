@@ -32,7 +32,7 @@ licensed as Open Source, or any features or APIs marked as private.
 While ensuring security, privacy and safety is up catered for, we should strive
 to be as open as possible (\* see Design Doc on Open Source Governance and
 Decision flow:
-https://docs.google.com/document/u/1/d/1-tW8d9UdIwPt4pq7bJn0dlDRuoGIV7HaeENpDsS_MZY/)
+https://github.com/AtB-AS/org/blob/master/rfc/1002_open-source-governance-decision-flow.md)
 
 - Secrets should be Environment Variables or Secret Storage (preferably env.var)
 - Private repositories from Partners should never be made public.
