@@ -14,9 +14,15 @@ possible with development.
 ## Open Development
 
 All work that can be open is open on the
-[AtB GitHub Organization](https://github.com/AtB-AS). Everyone can contribute in
+[AtB GitHub Organization](https://github.com/AtB-AS), but can also be linked
+from [beta.mittatb.no](https://beta.mittatb.no). Everyone can contribute in
 different ways (see [vocabulary](./GOVERNANCE.md#vocabulary)) and all follow the
 same [review process](#review-process-and-pull-requests).
+
+When adding Issues or Pull Requests to any of AtB's repositories that
+information will be open and available for anyone to see. If you have anything
+that you want to communicate in private, see
+[beta.mittatb.no](https://beta.mittatb.no).
 
 ## Proposals and RFCs
 
