@@ -66,8 +66,9 @@ released to test stores (Test Flight and Alpha store).
 
 Typical flow for performing QA on a Feature:
 
-1. Validate all acceptance criteria on Feature card. Check if something should
-   be changed or added.
+1. Assign yourself to the Feature.
+1. Validate all acceptance criteria on the Feature. Check if something should be
+   changed or added.
 1. Check that all sub tasks and bugs are closed and in done column.
 1. Install latest version from alpha stores or test flight on your device and/or
    test devices.
@@ -93,6 +94,7 @@ Typical flow for performing QA on a Feature:
    1. Close Feature
    1. Move Feature to `Done`
    1. Give mental high fives all around.
+1. Unassign yourself from Feature
 
 ### Terms and glossery
 
@@ -127,19 +129,6 @@ When traveling we often need to know departures from nearby. This is typically
 when standing at a quay and we want to see the next transportation from where we
 are (or some place nearby).
 
-## Tasks
-
-- [x] #57
-- [x] #58
-
-## Bugs
-
-- [x] #104
-
-## Example
-
-![Position](https://user-images.githubusercontent.com/606374/77403199-2aebf580-6db0-11ea-8ab2-cc7553706d83.png)
-
 ## Acceptance criteria
 
 - [ ] Users should be able to to open and show nearby departures based on
@@ -156,4 +145,17 @@ are (or some place nearby).
 - [ ] Users should get info on if the departure time is real-time.
 - [ ] Users should be able to see a departures entire trip (all stops on that
       service journey).
+
+## Example
+
+![Position](https://user-images.githubusercontent.com/606374/77403199-2aebf580-6db0-11ea-8ab2-cc7553706d83.png)
+
+## Tasks
+
+- [x] #57
+- [x] #58
+
+## Bugs
+
+- [x] #104
 ```
