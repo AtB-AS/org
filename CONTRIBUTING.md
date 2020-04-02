@@ -36,3 +36,6 @@ We follow Pull Requests and review process. Changes should not be committed
 directly to master, but in a separate branch (or fork) and proposed as a change
 through Github Pull Requests. When adding PRs we require at least one
 `committer` (see governance) to approve it.
+
+Read complete
+[specification of workflow and QA process](./guides/workflow-and-qa-progress-apps.md).
