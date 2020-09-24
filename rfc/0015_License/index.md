@@ -142,7 +142,7 @@ If we at some point want to make SDKs for clients wanting to integrate to a
 mobility platform, copyleft might be a hinderance. For instance having an
 electric scooter provider wanting to integrate with our platform, they could be
 required to open source their platform integration module, exposing internal
-systems. Which can be a no-go and detremental to our strategic plans. For this
+systems. Which can be a no-go and detrimental to our strategic plans. For this
 we need to do case-by-case decisions if we need a more permissive license than
 GPLv3.
 
