@@ -19,18 +19,17 @@ author: Mikael Brevik <@mikaelbr>
 
 ## Summary
 
-For big releases such as apps, web apps, and BFFs, we should use GPLv3. But for
-the compatibility clause to be used we must have our own library or code base
-with GPLv3 which is merged with EUPL-1.2.
+For big end-user releases such as apps, web apps, and BFFs, we should use
+EUPL-1.2.
 
 | Type of project                                           | License      |
 | --------------------------------------------------------- | ------------ |
 | SDK, Libraries not dependent on Entur                     | Case by case |
 | Component Libraries, Design Systems, Style Guides         | Case by case |
-| SDK based on Entur                                        | GPLv3        |
+| SDK if based on Entur                                     | EUPL-1.2     |
 | Documentation                                             | CC-BY-SA 3.0 |
-| Proxy servers, middleware, BFF                            | GPLv3        |
-| Apps, CLIs, Web-apps                                      | GPLv3        |
+| Proxy servers, middleware, BFF                            | EUPL-1.2     |
+| Apps, CLIs, Web-apps                                      | EUPL-1.2     |
 | Other supporting projects (like blog tools, plugins, etc) | Apache-2.0   |
 
 ## Discussion
@@ -58,7 +57,7 @@ compatibility clause, where you can use EUPL-1.2 for your derived work if
 compatibility is required, and use other licenses. Compatible licenses include
 LGPL, GPL (v2 and v3), MPL, AGPL, and others. “If required” is a key component.
 From reading EUPL-1.2 license it looks like you can only use the compatibility
-clause if (IFF) compatibility is required.
+clause if (IFF) compatibility is **required**.
 
 There are some internal libraries are unlicensed. If we are to directly use the
 secret helper libraries, we have to have a license or introduce a layer for
@@ -111,12 +110,12 @@ looks like this isn’t applicable for GPLv3 or EUPL.
 
 ### Conclusion
 
-If we base our code on the SDK, we are required to distribute our code as a
-license similar to EUPL also. We could have the BFF as GPLv3 but our own SDK
-(which cannot be based on Enturs SDK or be too similar) which has a more
-permissive license if we want and that is needed. This might mean we cannot
-reuse types across different clients/solutions. Other than this, most
-infrastructure code uses Enturs data from REST APIs or GraphQL and not
+If we base our code on the SDK or any other libraries, we are required to
+distribute our code as a license similar to EUPL-1.2 also. We could have the BFF
+as GPLv3 but our own SDK (which cannot be based on Enturs SDK or be too similar)
+which has a more permissive license if we want and that is needed. This might
+mean we cannot reuse types across different clients/solutions. Other than this,
+most infrastructure code uses Enturs data from REST APIs or GraphQL and not
 distributing the code directly. If we use the SDK or derive our work from it, we
 must be EUPL (or compatible), if not we are free to choose. AppStore
 distribution model doesn’t seem to affect us unless we choose GPLv2.
@@ -125,7 +124,7 @@ distribution model doesn’t seem to affect us unless we choose GPLv2.
 
 Now that we know the technical limitations we can discuss the more philosophical
 and strategic goals and how we want to work with Open Source. It comes down to
-the question: Do we want our License to be viral, or not and how does this
+the question: Do we want our License to be viral or not. And how does this
 affect collaboration with other counties and mobility providers.
 
 I think the ultimate goal of this project is to reduce non-public transport in
@@ -133,8 +132,8 @@ Trøndelag county and be as transparent and open as possible to consumers. We
 should be a partner of the people, other counties and Entur AS.
 
 At least in frontend (mobile and web development), LGPL and more permissive
-licenses (MIT, BSD, etc) are more common. It can be valuable conforming to more
-industry-standard licenses.
+licenses (Apache-2.0, MIT, BSD, etc) are more common. It can be valuable
+conforming to more industry-standard licenses.
 
 ### Some limitations of copyleftism and commercial platforming
 
@@ -144,29 +143,32 @@ electric scooter provider wanting to integrate with our platform, they could be
 required to open source their platform integration module, exposing internal
 systems. Which can be a no-go and detrimental to our strategic plans. For this
 we need to do case-by-case decisions if we need a more permissive license than
-GPLv3.
+EUPL-1.2.
 
 ## Conclusion
 
-The EUPL-1.2 looks like an interesting license that is designed to be compatible
-with other licenses but also copyleft. I think using EUPL-1.2 is a viable
-option, but copyleft isn't always the right choice for every distributable. The
-compatibility clause of the EUPL-1.2 means **we can use a more common license
-type such as GPLv3**. But for the compatibility clause to be used we must have
-our own library or code base with GPLv3 which is merged with EUPL-1.2.
+This RFC proposes licensing mainly as EUPL-1.2 that is designed to be compatible
+with other licenses but also copyleft. Using EUPL-1.2 as default for domain
+specific code bases makes it easier to be compatible with Enturs solutions
+without having to construct mechanisms for invoking compatibility clauses. Using
+EUPL-1.2 is a viable option, but copyleft isn't always the right choice for
+every type of distributable. There are some cases (e.g. SDKs for commercial
+agents for the platform) where we have to evaluate if we should go for a more
+permissive license.
 
 I think using an even more common license by default for our libraries should be
 preferred. End products should be more viral as we want to encourage sharing
 experiences. Using a library is one thing, but redistributing entire
 applications is another. The latter example I think it is more important to be
-copyleft. So I think **using EUPL-1.2s compatibility with GPLv3** is
-interesting. As we can maximize usage (working towards the goal of minimizing
-non-public transport), but also if someone forks/redistributes our projects,
-they must inherit the GPL license.
+copyleft. Therefor the recommendation is to use EUPL-1.2 and possibly GPLv3 if
+needed as part of the upstream compatibilty clause. As we can maximize usage
+(working towards the goal of minimizing non-public transport), but also if
+someone forks/redistributes our projects, they must inherit the EUPL-1.2
+license.
 
-GPLv3 can be a good fit for the infrastructure code. As this will be as an end
-product in many ways. People can use it as APIs without inheriting license, but
-if they redistribute the license should be inherited.
+EUPL-1.2 can also be a good fit for the infrastructure code. As this will be as
+an end product in many ways. People can use it as APIs without inheriting
+license, but if they redistribute the license should be inherited.
 
 An overall guide for license looks like this:
 
@@ -174,8 +176,8 @@ An overall guide for license looks like this:
 | --------------------------------------------------------- | ------------ |
 | SDK, Libraries not dependent on Entur                     | Case by case |
 | Component Libraries, Design Systems, Style Guides         | Case by case |
-| SDK based on Entur                                        | GPLv3        |
+| SDK if based on Entur                                     | EUPL-1.2     |
 | Documentation                                             | CC-BY-SA 3.0 |
-| Proxy servers, middleware, BFF                            | GPLv3        |
-| Apps, CLIs, Web-apps                                      | GPLv3        |
+| Proxy servers, middleware, BFF                            | EUPL-1.2     |
+| Apps, CLIs, Web-apps                                      | EUPL-1.2     |
 | Other supporting projects (like blog tools, plugins, etc) | Apache-2.0   |
