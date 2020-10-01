@@ -3,7 +3,7 @@ date: "2020-09-24"
 author: Mikael Brevik <@mikaelbr>
 ---
 
-# GPLv3, Apache-2.0 Licence type
+# EUPL-1.2, Apache-2.0 Licence type
 
 ### Goals
 
