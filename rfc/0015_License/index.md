@@ -27,7 +27,7 @@ EUPL-1.2.
 | SDK, Libraries not dependent on Entur                     | Case by case |
 | Component Libraries, Design Systems, Style Guides         | Case by case |
 | SDK if based on Entur                                     | EUPL-1.2     |
-| Documentation                                             | CC-BY-SA 3.0 |
+| Documentation                                             | CC-BY-SA 4.0 |
 | Proxy servers, middleware, BFF                            | EUPL-1.2     |
 | Apps, CLIs, Web-apps                                      | EUPL-1.2     |
 | Other supporting projects (like blog tools, plugins, etc) | Apache-2.0   |
@@ -177,7 +177,7 @@ An overall guide for license looks like this:
 | SDK, Libraries not dependent on Entur                     | Case by case |
 | Component Libraries, Design Systems, Style Guides         | Case by case |
 | SDK if based on Entur                                     | EUPL-1.2     |
-| Documentation                                             | CC-BY-SA 3.0 |
+| Documentation                                             | CC-BY-SA 4.0 |
 | Proxy servers, middleware, BFF                            | EUPL-1.2     |
 | Apps, CLIs, Web-apps                                      | EUPL-1.2     |
 | Other supporting projects (like blog tools, plugins, etc) | Apache-2.0   |
