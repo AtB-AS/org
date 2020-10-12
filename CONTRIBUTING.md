@@ -11,6 +11,8 @@ to encourage new and existing contributors and make it as simple as possible to
 get started or get the answers you need. Another goal is to be as transparent as
 possible with development.
 
+Contributions are [noted as inbound=outbound](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service#6-contributions-under-repository-license).
+
 ## Open Development
 
 All work that can be open is open on the
