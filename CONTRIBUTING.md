@@ -41,3 +41,24 @@ through Github Pull Requests. When adding PRs we require at least one
 
 Read complete
 [specification of workflow and QA process](./guides/workflow-and-qa-progress-apps.md).
+
+
+## Language
+
+External contributors are free to use English when interacting with projects within the
+AtB organization, but as general working language we adhere to these principles:
+
+### In Norwegian:
+
+- Issues, Features, and tasks.
+- Comments, QA, code reviews, and suggestions.
+- Roadmap descriptions etc.
+- Release text descriptions.
+
+### In English:
+
+- Code (variables etc) and code comments.
+- Commit messages.
+- Pull Request Titles (will be reused for changelog)
+- Technical documentation (getting started, contribution guide, etc).
+
